@@ -8,9 +8,61 @@
       img {
         width: 100%;
       }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .span-1 {
+        grid-column: span 1;
+      }
+
+      .span-2 {
+        grid-column: span 2;
+      }
+
+      body {
+        /* background-color: #fdba74; */
+        background: linear-gradient(#fdba74, #9198e5);
+      }
+
+      main {
+        max-width: 36rem;
+        margin: 0 auto;
+
+        padding: 1rem;
+      }
     </style>
   </head>
   <body>
-    <p>To be created!</p>
+    <main>
+      <h1 style="text-align: center">Lions</h1>
+      <img src="/images/lion-3.jpg" alt="A family of lions." />
+
+      <p>
+        <img
+          src="/images/lion-1.jpg"
+          alt="A cute lion cub."
+          style="float: right; width: 200px; padding: 0 0 1rem 1rem"
+        />
+        Lions are majestic carnivores known for their fierce demeanor and iconic
+        mane. They are part of the big cat family and are the only social cats,
+        living in prides consisting of related females and their young, along
+        with a few dominant males. These powerful predators are primarily found
+        in Africa's savannas, where they hunt together to take down large prey
+        such as zebras and buffalo.
+      </p>
+      <p>
+        Male lions are easily recognized by their impressive manes, which serve
+        as a sign of their strength and dominance. Despite their reputation as
+        fierce hunters, lions spend a significant amount of time resting and
+        conserving energy, with females primarily responsible for hunting. The
+        roar of a lion can be heard up to 5 miles away, serving as a territorial
+        call and a means of communication within the pride. Lions face threats
+        from habitat loss and human-wildlife conflict but remain a symbol of
+        strength and resilience in the animal kingdom.
+      </p>
+    </main>
   </body>
 </html>
