@@ -8,9 +8,59 @@
       img {
         width: 100%;
       }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .span-1 {
+        grid-column: span 1;
+      }
+
+      .span-2 {
+        grid-column: span 2;
+      }
+
+      main {
+        max-width: 36rem;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+
+      body {
+        /* background-color: #a5b4fc; */
+        background: linear-gradient(#a5b4fc, #dbeafe);
+      }
     </style>
   </head>
   <body>
-    <p>To be created!</p>
+    <main>
+      <h1>Penguins</h1>
+      <img src="/images/penguin-2.jpg" alt="A few penguins on floating ice." />
+      <h2>Behavior</h2>
+      <p>
+        Penguins exhibit fascinating behavior both on land and in the water.
+        These flightless birds are highly adapted for aquatic life, excelling in
+        swimming and diving. Socially, they form large colonies for breeding,
+        displaying strong mate fidelity and engaging in complex courtship
+        rituals. Penguins communicate through vocalizations, postures, and
+        displays to establish territories and bond with their mates.
+      </p>
+      <p>
+        <img
+          src="/images/penguin-13.jpg"
+          alt="A penguin diving."
+          style="width: 200px; float: left; padding-right: 1rem"
+        />
+        Parental care is central to penguin behavior, with both parents sharing
+        responsibilities such as incubating eggs and feeding the chicks.
+        Penguins also exhibit hierarchy within colonies, with dominant
+        individuals often defending their territories and mates. Their communal
+        lifestyle helps protect them against predators and harsh environmental
+        conditions, showcasing the importance of unity in their survival
+        strategies.
+      </p>
+    </main>
   </body>
 </html>
